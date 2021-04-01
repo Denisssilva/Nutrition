@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          NutritioN
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -51,45 +51,45 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'Docs',
+    title: 'Início',
     caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    icon: 'home',
+    link: ''
   },
   {
-    title: 'Github',
+    title: 'Novo usuário',
     caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    icon: 'person_add_alt',
+    link: '/cadastro'
   },
   {
-    title: 'Discord Chat Channel',
+    title: 'Novo peso',
     caption: 'chat.quasar.dev',
-    icon: 'chat',
+    icon: 'post_add',
     link: 'https://chat.quasar.dev'
   },
   {
-    title: 'Forum',
+    title: 'Gráfico peso',
     caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
+    icon: 'equalizer',
     link: 'https://forum.quasar.dev'
   },
   {
-    title: 'Twitter',
+    title: 'Gráfico imc',
     caption: '@quasarframework',
-    icon: 'rss_feed',
+    icon: 'equalizer',
     link: 'https://twitter.quasar.dev'
   },
   {
-    title: 'Facebook',
+    title: 'Hidratação',
     caption: '@QuasarFramework',
-    icon: 'public',
+    icon: 'local_drink',
     link: 'https://facebook.quasar.dev'
   },
   {
-    title: 'Quasar Awesome',
+    title: 'Sobre',
     caption: 'Community Quasar projects',
-    icon: 'favorite',
+    icon: 'error_outline',
     link: 'https://awesome.quasar.dev'
   }
 ];
