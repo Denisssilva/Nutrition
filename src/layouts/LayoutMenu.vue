@@ -66,31 +66,31 @@ const linksData = [
     title: 'Novo peso',
     caption: 'chat.quasar.dev',
     icon: 'post_add',
-    link: 'https://chat.quasar.dev'
+    link: '/novoPeso'
   },
   {
     title: 'Gráfico peso',
     caption: 'forum.quasar.dev',
     icon: 'equalizer',
-    link: 'https://forum.quasar.dev'
+    link: 'grafPeso'
   },
   {
     title: 'Gráfico imc',
     caption: '@quasarframework',
     icon: 'equalizer',
-    link: 'https://twitter.quasar.dev'
+    link: 'grafImc'
   },
   {
     title: 'Hidratação',
     caption: '@QuasarFramework',
     icon: 'local_drink',
-    link: 'https://facebook.quasar.dev'
+    link: 'hidratacao'
   },
   {
     title: 'Sobre',
     caption: 'Community Quasar projects',
-    icon: 'error_outline',
-    link: 'https://awesome.quasar.dev'
+    icon: 'info',
+    link: 'sobre'
   }
 ];
 

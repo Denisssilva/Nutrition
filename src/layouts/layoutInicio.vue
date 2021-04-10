@@ -16,3 +16,10 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.q-layout {
+  background-image: url(/assets/bgnutrition.png);
+  background-size: cover;
+}
+
+</style>
