@@ -3,9 +3,33 @@ import { RouteConfig } from 'vue-router';
 const routes: RouteConfig[] = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('src/layouts/layoutInicio.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: () => import('pages/inicio/inicio.vue') },
+      { path: 'login', component: () => import('pages/login/login.vue') },
+      { path: 'teste', component: () => import('pages/inicio/teste.vue') },
+      { path: 'Index', component: () => import('pages/Index.vue') }
+    ]
+  },
+  {
+    path: '/',
+    component: () => import('layouts/layoutBarra.vue'),
+    children: [
+      { path: 'cadastro', component: () => import('pages/cadastro/cadastro.vue') },
+      { path: 'novoUsuario', component: () => import('pages/novoUsuario.vue') },
+      { path: 'info', component: () => import('pages/info/info.vue') },
+
+    ]
+  },
+  {
+    path: '/',
+    component: () => import('src/layouts/LayoutMenu.vue'),
+    children: [
+      { path: 'menu', component: () => import('pages/menu/menu.vue') },
+      { path: 'novoPeso', component: () => import('pages/novoPeso.vue') },
+      { path: 'grafPeso', component: () => import('pages/grafPeso.vue') },
+      { path: 'grafImc', component: () => import('pages/grafImc.vue') },
+      { path: 'sobre', component: () => import('pages/sobre.vue') }
     ]
   },
 
