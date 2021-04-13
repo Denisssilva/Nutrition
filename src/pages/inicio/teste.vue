@@ -2,7 +2,7 @@
 <q-page class="container">
   <div class="row">
     <div class="col">
-
+      <div class="order-first"></div>
 
       <q-card flat bordered class="my-card column justify-center items-center">
       <q-card-section>
@@ -15,17 +15,23 @@
         </div>
       </q-card-section>
       <q-card-section>
-            <q-btn class="glossy" rounded padding="10px 80px"
+         <div >
+          <q-btn class="glossy" rounded padding="10px 80px"
             color="primary" label="Login" size="25px"/>
-
+          </div>
+          <div>
             <q-btn flat label="Ou faça seu cadastro aqui"
             style="background: white; color: green"
-            size="15px"/>
+            size="15px"
+            />
+          </div>
+
       </q-card-section>
 
-
-
       </q-card>
+
+
+
     </div>
   </div>
 

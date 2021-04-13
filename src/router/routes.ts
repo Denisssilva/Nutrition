@@ -8,7 +8,8 @@ const routes: RouteConfig[] = [
       { path: '', component: () => import('pages/inicio/inicio.vue') },
       { path: 'login', component: () => import('pages/login/login.vue') },
       { path: 'teste', component: () => import('pages/inicio/teste.vue') },
-      { path: 'Index', component: () => import('pages/Index.vue') }
+      { path: 'teste2', component: () => import('pages/inicio/teste2.vue') },
+
     ]
   },
   {
@@ -18,6 +19,11 @@ const routes: RouteConfig[] = [
       { path: 'cadastro', component: () => import('pages/cadastro/cadastro.vue') },
       { path: 'novoUsuario', component: () => import('pages/novoUsuario.vue') },
       { path: 'info', component: () => import('pages/info/info.vue') },
+      { path: 'novoPeso', component: () => import('pages/novoPeso.vue') },
+      { path: 'grafPeso', component: () => import('pages/grafPeso.vue') },
+      { path: 'grafImc', component: () => import('pages/grafImc.vue') },
+      { path: 'hidratacao', component: () => import('pages/hidratacao.vue') },
+      { path: 'sobre', component: () => import('pages/sobre.vue') }
 
     ]
   },
@@ -26,10 +32,7 @@ const routes: RouteConfig[] = [
     component: () => import('src/layouts/LayoutMenu.vue'),
     children: [
       { path: 'menu', component: () => import('pages/menu/menu.vue') },
-      { path: 'novoPeso', component: () => import('pages/novoPeso.vue') },
-      { path: 'grafPeso', component: () => import('pages/grafPeso.vue') },
-      { path: 'grafImc', component: () => import('pages/grafImc.vue') },
-      { path: 'sobre', component: () => import('pages/sobre.vue') }
+
     ]
   },
 

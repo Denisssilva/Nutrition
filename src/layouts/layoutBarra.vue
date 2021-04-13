@@ -9,7 +9,11 @@
           </q-avatar>
           NutritioN
         </q-toolbar-title>
-        <q-btn flat round color="secondary" icon="home" />
+        <q-btn class="glossy" round color="primary" icon="west" to="/menu"/>
+        <q-btn flat round color="secondary" icon="home" to="/"/>
+
+
+
       </q-toolbar>
     </q-header>
 

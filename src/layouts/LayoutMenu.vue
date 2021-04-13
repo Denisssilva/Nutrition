@@ -15,7 +15,6 @@
           NutritioN
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -30,7 +29,7 @@
           header
           class="text-grey-8"
         >
-          Essential Links
+          Opções
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
@@ -54,13 +53,13 @@ const linksData = [
     title: 'Início',
     caption: 'quasar.dev',
     icon: 'home',
-    link: ''
+    to:'/'
   },
   {
     title: 'Novo usuário',
     caption: 'github.com/quasarframework',
     icon: 'person_add_alt',
-    link: '/cadastro'
+    link: '/novoUsuario'
   },
   {
     title: 'Novo peso',
